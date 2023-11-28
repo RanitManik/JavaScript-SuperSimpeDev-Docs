@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="JS"
+                 name="javascript documentation"
+                 start-page="Introduction.md">
+
+    <toc-element topic="Introduction.md">
+        <toc-element topic="page_01.md">
+        </toc-element>
+        <toc-element topic="page_02.md"/>
+        <toc-element topic="page_03.md"/>
+    </toc-element>
+</instance-profile>
