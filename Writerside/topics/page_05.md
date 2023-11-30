@@ -136,3 +136,45 @@ Add 2 buttons '-2' and '-3', which decrease the quantity by 2 and 3.
 
 **Exercise 5k:**
 Use the shortcuts `--` and `-=` in 5i and 5j.
+
+**Exercise 5l:**
+Add the HTML structure ( `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`). Add a `<title>` with the text 'Calculator'.
+
+**Exercise 5m:**
+Create these 5 buttons: `1` `2` `3` `+` `=`
+
+**Exercise 5n:**
+Create a `<script>`, create a variable called 'calculation', and save an empty string inside: `let calculation = "";` (
+This variable will store the calculation like '1 + 2' or '11 + 2 + 2')
+
+**Exercise 5o:**
+When we click the '1' button:
+
+- Add the string '1' to the calculation variable: `calculation += '1';
+- Display the calculation in the console: `console.log(calculation);`
+
+**Exercise 5p:**
+Do the same for the '2', '3', and '+' buttons (add ' +' instead of '+').
+
+**Exercise 5q:**
+When we click the '=' button, use the code:
+
+- `eval(calculation);`
+- Save the result back in 'calculation': `calculation = eval(calculation);`
+- Display the result in the console: `console.log(calculation);`
+
+**Exercise 5r:**
+Create the rest of the buttons in the calculator. To create multiple rows of buttons, put the buttons inside elements
+like this:
+
+```html
+
+<p>
+    <button>1</button>
+    <button>2</button>
+</p>
+<p>
+    <button>4</button>
+    <button>5</button>
+</p>
+```

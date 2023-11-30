@@ -198,13 +198,7 @@ Continuing from 4g, add a `<script>` element so that when the page loads, it dis
 Console.
 
 **Exercise 4i:**
-Using HTML and CSS, attempt to copy the design.
-
-```text
-Adults Plain Cotton T-shirt
-Price: $7.99
-Add to cart     Buy now
-```
+Using HTML and CSS, attempt to copy this [design](https://ibb.co/3T8WHPG)
 
 **Exercise 4j:**
 Continuing from 4i, add `onclick` attributes to the two buttons:
