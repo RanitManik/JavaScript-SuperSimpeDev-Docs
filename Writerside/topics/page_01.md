@@ -66,44 +66,34 @@ proficiency.
 
 ## 5. Exercises
 
-### Exercise 1a:
-
+**Exercise 1a:**
 Display 'Good morning!' in a popup using `alert( ... );`.
 
-### Exercise 1b:
-
+**Exercise 1b:**
 Show your name in a popup.
 
-### Exercise 1c:
-
+**Exercise 1c:**
 Calculate 10 + 5 in the Console.
 
-### Exercise 1d:
-
+**Exercise 1d:**
 Compute 20 - 5 in the Console.
 
-### Exercise 1e:
-
+**Exercise 1e:**
 Determine 2 + 2 - 5 in the Console.
 
-### Exercise 1f:
-
+**Exercise 1f:**
 Display 'Good morning!' on the web page using `document.body.innerHTML = ...;`.
 
-### Exercise 1g:
-
+**Exercise 1g:**
 Show your name on the web page.
 
-### Exercise 1h:
-
+**Exercise 1h:**
 Calculate the total cost of a T-shirt ($10), socks ($8), and dinner plates ($20).
 
-### Exercise 1i:
-
+**Exercise 1i:**
 Track your bank account balance after spending $20 on lunch, $50 on dinner, and earning $200 from your job.
 
-### Exercise 1j:
-
+**Exercise 1j:**
 Use `document.body.innerHTML = ...;` to make the web page blank.
 
 Explore these exercises to reinforce your JavaScript skills and understanding. Happy coding!

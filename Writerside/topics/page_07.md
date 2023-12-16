@@ -15,7 +15,7 @@ function functionName(parameter1, parameter2, ...) {
 }
 ```
 
-#### Example:
+**Example:**
 
 ```javascript
 function greet(name) {
@@ -34,7 +34,7 @@ JavaScript programs.
 The `return` statement in a function allows you to send a value back to the code that called the function. This is
 crucial for obtaining results or data from functions.
 
-#### Example:
+**Example:**
 
 ```javascript
 function addNumbers(a, b) {
@@ -52,7 +52,7 @@ The `return` statement not only provides a result but also exits the function, p
 Parameters are placeholders for values that a function will receive when it is called. They allow functions to accept
 input, making them more flexible and adaptable.
 
-#### Example:
+**Example:**
 
 ```javascript
 function multiply(a, b) {
@@ -181,7 +181,7 @@ Fahrenheit.
 * Formula: Fahrenheit = (Celsius * 9 / 5) + 32. `convertToFahrenheit(25) => 77`
 
 **Exercise 7e:**
-Create a function 'convertToCelsius(fahrenheit)' that takes a number in degrees Fahrenheit and returns a number in
+Create a function 'convertToCelsius(Fahrenheit)' that takes a number in degrees Fahrenheit and returns a number in
 degrees Celsius.
 
 * Formula: Celsius = (Fahrenheit - 32) * 5 / 9. `convertToCelsius(86) => 30`

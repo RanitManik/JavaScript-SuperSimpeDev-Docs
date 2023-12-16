@@ -105,15 +105,80 @@ you can minimize the impact of precision issues in your calculations.
 To mitigate floating-point inaccuracies, the `Math.round()` function can be used to round a number to the nearest
 integer.
 
+The `Math.round()` method rounds a number to the nearest integer.
+2.49 will be rounded down (2), and 2.5 will be rounded up (3).
+
 ```javascript
-let roundedNumber = Math.round(0.1 + 0.2); // Result: 0.3
+let roundedNumber = Math.round(0.1 + 0.2); // Result: 0
+let roundedNumber = Math.round(1 + 2.2); // Result: 3
+let roundedNumber = Math.round(0.49); // Result: 0
+let roundedNumber = Math.round(0.5); // Result: 1
 ```
 
 In summary, mastering numbers and math operations in JavaScript is fundamental for writing effective and accurate code.
 Understanding the order of operations and handling floating-point precision issues will enhance the reliability of your
 programs.
 
-## 5. Exercises
+## 5. Math.floor()
+
+In JavaScript, the `Math.floor()` function is used to round down a decimal number to the nearest integer that is less
+than or equal to the original argument. It
+takes a single argument, which is the number you want to round down. Here's an example:
+
+```javascript
+let decimalNumber = 7.85;
+let roundedDownNumber = Math.floor(decimalNumber);
+
+console.log(roundedDownNumber); // Output: 7
+```
+
+In this example, `Math.floor()` is applied to `7.85`, and the result is `7` because it rounds down to the nearest
+integer. It's important to note that `Math.floor()` always returns a whole number that is less than or equal to the
+original decimal number.
+
+If you have a negative decimal number, `Math.floor()` will round it to the smaller integer that is less than or equal to
+the original number. For example:
+
+```javascript
+let negativeDecimalNumber = -4.25;
+let roundedDownNegativeNumber = Math.floor(negativeDecimalNumber);
+
+console.log(roundedDownNegativeNumber); // Output: -5
+```
+
+In this case, `Math.floor()` rounds down `-4.25` to `-5`.
+
+## 6. Math.ceil()
+
+In JavaScript, the `Math.ceil()` function is used to round a number up to the nearest integer that is greater than or
+equal to the original argument. This function is part of
+the `Math` object and takes a single argument, which is the number you want to round up. Here's a brief explanation and
+example:
+
+```javascript
+let decimalNumber = 2.2;
+let roundedUpNumber = Math.ceil(decimalNumber);
+
+console.log(roundedUpNumber); // Output: 3
+```
+
+In this example, `Math.ceil()` is applied to the decimal number `2.2`, and the result is `3` because it rounds up to the
+nearest integer that is greater than or equal to the argument.
+
+If you have a negative decimal number, `Math.ceil()` will still round it up to the smallest integer that is greater than
+or equal to the original number:
+
+```javascript
+let negativeDecimalNumber = -2.8;
+let roundedUpNegativeNumber = Math.ceil(negativeDecimalNumber);
+
+console.log(roundedUpNegativeNumber); // Output: -2
+```
+
+So, in both cases, whether the number is positive or negative, `Math.ceil()` rounds the number up to the next higher
+integer.
+
+## 7. Exercises
 
 **Exercise 2a:**
 At a restaurant, you order 1 soup for $10, 3 burgers for $8 each, and 1 ice cream for $5. Use JavaScript to calculate
@@ -123,16 +188,6 @@ the cost of the order.
 You're at a restaurant with 2 friends (3 people in total) and make the same order as 2a. Calculate how much each person
 pays.
 
-**Order Summary:**
-
-```
-Items (3):              $47.93
-Shipping & handling:    $4.99
-Total before tax:       $52.92
-Estimated tax (10%):    $5.29
-Order total:            $58.21
-```
-
 **Exercise 2c:**
 Calculate the total cost of a toaster ($18.50) and 2 shirts ($7.50 each).
 
@@ -141,6 +196,18 @@ Calculate a 10% tax for the total in exercise 2c.
 
 **Exercise 2e:**
 Calculate a 20% tax for the total in 2c (remember that 1% = 1/100, so 20% = 20 / 100 = 0.2).
+
+**Order Summary:**
+
+- a toaster ($18.99) | 1 t-shirt ($7.99 each) | 1 basketball ($20.95)
+
+```
+Items (3):              $47.93
+Shipping & handling:    $4.99
+Total before tax:       $52.92
+Estimated tax (10%):    $5.29
+Order total:            $58.21
+```
 
 **Exercise 2f:**
 Calculate the cost of the products (before shipping and taxes). Hint: calculate in cents to avoid inaccuracies.

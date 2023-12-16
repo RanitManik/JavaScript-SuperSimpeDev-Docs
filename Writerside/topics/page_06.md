@@ -6,7 +6,7 @@ Boolean values (datatype) in JavaScript represent either `true` or `false`. They
 and
 controlling the flow of your program.
 
-### Example:
+**Example:**
 
 ```javascript
 let isTrue = true;
@@ -33,7 +33,7 @@ if (condition) {
 }
 ```
 
-### Example:
+**Example:**
 
 ```javascript
 let num = 10;
@@ -61,7 +61,7 @@ false.
 - **Equal To (===):** Checks if the values on both sides are equal in both value and type.
 - **Not Equal To (!==):** Checks if the values on both sides are not equal in either value or type.
 
-### Example:
+**Example:**
 
 ```javascript
 let x = 5;
@@ -83,7 +83,7 @@ Logical operators are used to combine and manipulate boolean values.
 - **Logical OR (||):** Returns true if at least one operand is true.
 - **Logical NOT (!):** Returns the opposite boolean value.
 
-### Example:
+**Example:**
 
 ```javascript
 let a = true;
@@ -95,7 +95,7 @@ console.log(!a); // Outputs: false (NOT true)
 console.log(!b); // Outputs: true (NOT false)
 ```
 
-#### Example:
+#**Example:**
 
 ```javascript
 let age = 15;
@@ -238,7 +238,7 @@ problem-solving in programming, providing a structured approach to solving speci
 
 In JavaScript, values are inherently truthy or falsy, which is important in conditions and evaluations.
 
-### Example:
+**Example:**
 
 ```javascript
 let truthyValue = "Hello";
@@ -269,8 +269,7 @@ In a logical AND expression (`A && B`), if the first operand (`A`) evaluates to 
 already determined to be `false`, so the second operand (`B`) is not evaluated. This helps in optimizing code,
 especially when the second operand involves expensive computations or function calls.
 
-#### Example
-
+**Example:**
 ```javascript
 let isUserLoggedIn = false;
 let userName = isUserLoggedIn && getUserInfo(); 
@@ -283,8 +282,7 @@ In a logical OR expression (`A || B`), if the first operand (`A`) evaluates to `
 determined to be `true`, and the second operand (`B`) is skipped. This is beneficial when the second operand might cause
 side effects or unnecessary computations.
 
-#### Example
-
+**Example:**
 ```javascript
 let defaultUserName = "Guest";
 let inputUserName = ""; // Assume this is user input
@@ -298,8 +296,7 @@ let finalUserName = inputUserName || defaultUserName;
 One common use of short-circuit evaluation is for setting default values. The logical OR operator is employed to provide
 a default value when a variable is falsy.
 
-#### Example
-
+**Example:**
 ```javascript
 function greetUser(name) {
   name = name || "Guest"; // If name is falsy, use "Guest" as the default
@@ -316,8 +313,7 @@ The guard operator is particularly useful when you want to perform an action or 
 is truthy. It prevents the execution of subsequent code if the condition is falsy, acting as a guard against unnecessary
 operations.
 
-#### Example
-
+**Example:**
 ```javascript
 let isLoggedIn = true;
 let userInfo = isLoggedIn && getUserInfo();
@@ -333,8 +329,7 @@ operations when the condition is not met.
 
 The guard operator is often used for providing default values, similar to the logical OR (`||`) short-circuit approach.
 
-#### Example
-
+**Example:**
 ```javascript
 function greetUser(name) {
   name = name && name.trim(); // Trim whitespace only if name is truthy
@@ -395,7 +390,7 @@ Imagine an amusement park that has a discount for children (6 years and younger)
 
 Continuing from exercise 6d, let's say the discount is only available if it is not a holiday. Create a
 variable: `const isHoliday = true;`. Update the code so that in order to get a discount, people must meet the age
-requirement and it is also not a holiday. Note: && has a higher priority than || so you may need to use brackets () to
+requirement, and it is also not a holiday. Note: && has a higher priority than || so you may need to use brackets () to
 control which code gets done first. Try changing the value of isHoliday to display different messages.
 
 **Exercise 6f:**

@@ -140,17 +140,12 @@ name).
 At a restaurant, you order 1 coffee ($5) and 1 bagel ($3). Using math, calculate the total cost, and using
 concatenation, create the text: 'Total cost: $_' (replace _ with the total you calculated).
 
-```
-Total cost: $8.94
-Thank you, come again!
-OK
-```
-
 **Exercise 3e:**
 Do the same thing as 3d, but use a template string and interpolation.
 
 **Exercise 3f:**
 Display the text from 3e in a popup using `alert( ... );`.
+
 **Exercise 3g:**
 You order 1 coffee ($5.99) and 1 bagel ($2.95). Using math, calculate the total cost, and using concatenation, create
 the text: 'Total cost: $_' (hint: calculate in cents to avoid inaccuracies).
@@ -165,7 +160,16 @@ Display the text from 3h in a popup.
 Using a multi-line string, create the text from 3h and add a line of text above: 'Thank you, come again!'. Display
 both lines in a popup.
 
+```
+Total cost: $8.94
+Thank you, come again!
+```
+
 **Order Summary:**
+
+2 basketballs ($20.95 each)
+with $4.99 shipping, and 2 t-shirts
+($7.99 each) with $4.99 shipping.
 
 ```
 Items (4):              $57.88
