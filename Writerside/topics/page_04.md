@@ -171,36 +171,36 @@ Hello, world!
 Today I went to the grocery store to buy some eggs and vegetables.
 ```
 
-**Exercise 4a:**
+**Exercise 4e:**
 Create a paragraph with the text "Hello, world!" and use CSS to set the text color to blue.
 
-**Exercise 4b:**
+**Exercise 4f:**
 Create an unordered list with three list items: "Apple," "Banana," and "Orange." Apply CSS to give the list items a
 green color.
 
-**Exercise 4c:**
+**Exercise 4g:**
 Create a div with the id "box" and apply CSS to give it a red border with a thickness of 2px and a solid style.
 
-**Exercise 4d:**
+**Exercise 4h:**
 Create a heading with the text "My Web Page" and apply CSS to center the text and give it a font size of 24px.
 
-**Exercise 4e:**
+**Exercise 4i:**
 Create 2 buttons "Add to cart" and "Buy now." Use CSS to give them yellow and orange background colors.
 
-**Exercise 4f:**
+**Exercise 4j:**
 Add the HTML structure to exercise 4e and change the title at the top of the tab to 'Buttons'.
 
-**Exercise 4g:**
+**Exercise 4k:**
 Continuing from 4f, change the title at the top of the tab to 'Buttons'.
 
-**Exercise 4h:**
+**Exercise 4l:**
 Continuing from 4g, add a `<script>` element so that when the page loads, it displays the message 'Welcome!' in the
 Console.
 
-**Exercise 4i:**
+**Exercise 4m:**
 Using HTML and CSS, attempt to copy this [design](https://ibb.co/3T8WHPG)
 
-**Exercise 4j:**
+**Exercise 4n:**
 Continuing from 4i, add `onclick` attributes to the two buttons:
 
 - When clicking 'Add to cart', create a popup with the text 'Added'.
