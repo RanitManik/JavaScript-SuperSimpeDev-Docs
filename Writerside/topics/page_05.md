@@ -93,10 +93,31 @@ let userAge = 25;
 let userName = "John Doe";
 ```
 
+## 6. eval() Function
+
+Certainly! In JavaScript, the `eval()` function is used to evaluate or execute a string of JavaScript code. It takes a
+string as an argument and interprets it as JavaScript code. Here's a simple example:
+
+```javascript
+let x = 10;
+let y = 20;
+let result = eval('x + y');
+
+console.log(result); // Outputs 30
+```
+
+In this example, the `eval()` function is used to dynamically execute the string `'x + y'`, which represents a
+JavaScript expression. The result is then stored in the `result` variable and printed to the console.
+
+It's important to note that the use of `eval()` should be approached with caution, as it can introduce security risks
+and is generally considered a bad practice. It can execute arbitrary code and may lead to vulnerabilities such as code
+injection. In most cases, it's better to find alternative, safer ways to achieve the desired functionality without
+using `eval()`.
+
 Understanding these fundamental concepts and best practices will lay a solid foundation for your journey into JavaScript
 development. Experiment with these examples to reinforce your understanding and build your coding skills. Happy coding!
 
-## 6. Exercises
+## 7. Exercises
 
 **Exercise 5a:**
 Create a `<script>` element. Inside the `<script>`, create a variable called 'name', and save your name in this

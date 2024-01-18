@@ -45,7 +45,7 @@ experience.
 ### How can I contribute to this documentation? {collapsible="true"}
 
 We welcome contributions! If you find errors, want to suggest improvements, or add new content, please refer to
-our [Contribution Guidelines](link-to-guidelines).
+our [Contribution Guidelines](https://github.com/RanitManik/JavaScript-Docs).
 
 ### Does this guide cover the latest updates ? {collapsible="true"}
 
@@ -60,7 +60,7 @@ the code to reinforce your understanding.
 ## Feedback and Support
 
 We value your feedback and are here to support you on your learning journey. If you have any questions, encounter
-issues, or want to provide suggestions, please reach out to us through [our support portal](link-to-support).
+issues, or want to provide suggestions, please reach out to us through [our support portal](https://github.com/RanitManik/JavaScript-Docs).
 
 Additionally, if you find this guide helpful, consider leaving feedback to help us enhance and improve the documentation
 for the entire community.
