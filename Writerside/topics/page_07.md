@@ -1,6 +1,5 @@
 # Functions
 
----
 
 ### 1. Functions: Let Us Reuse Code
 

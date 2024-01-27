@@ -1,6 +1,6 @@
 # Booleans and if-statements
 
-## 1. Boolean Values (true, false):
+## 1. Boolean Values (true, false)
 
 Boolean values (datatype) in JavaScript represent either `true` or `false`. They are fundamental for making decisions
 and
@@ -19,7 +19,7 @@ if (isTrue) {
 }
 ```
 
-## 2. If-Statements:
+## 2. If-Statements
 
 If-statements allow you to make decisions in your code based on certain conditions. They follow the syntax:
 
@@ -47,9 +47,9 @@ if (num > 10) {
 }
 ```
 
-## 3. Comparison Operators and Logical Operators:
+## 3. Comparison Operators and Logical Operators
 
-### Comparison Operators (>, <, >=, <=, ===, !==):
+### Comparison Operators (>, <, >=, <=, ===, !==)
 
 Comparison operators are used to compare values. They return a boolean value based on whether the comparison is true or
 false.
@@ -75,7 +75,7 @@ console.log(x === y); // Outputs: false
 console.log(x !== y); // Outputs: true
 ```
 
-### Logical Operators (&&, ||, !):
+### Logical Operators (&&, ||, !)
 
 Logical operators are used to combine and manipulate boolean values.
 
@@ -111,13 +111,13 @@ if (age >= 18 || hasLicense) {
 In the above example, the person is eligible to drive if they are 18 years or older or if they already have a driver's
 license. The `||` (OR) operator allows either condition to be true for the overall expression to be true.
 
-## 4. Algorithms and Rock Paper Scissors:
+## 4. Algorithms and Rock Paper Scissors
 
 Algorithms are step-by-step procedures or formulas for solving problems. In the context of programming, algorithms are
 essential for designing logical and efficient solutions to various tasks. Let's explore the concept of algorithms by
 creating a simple Rock Paper Scissors game.
 
-### Rock Paper Scissors Algorithm:
+### Rock Paper Scissors Algorithm
 
 The Rock Paper Scissors game involves two players making simultaneous choices among three possible options: rock, paper,
 or scissors. The winner is determined by a set of rules: rock beats scissors, scissors beats paper, and paper beats
@@ -138,7 +138,7 @@ rock. The game can be implemented through a series of logical steps:
 4. **Display Result:**
     - Output the result of the game to the user.
 
-### Rock Paper Scissors Example:
+### Rock Paper Scissors Example
 
 ```javascript
 <!DOCTYPE html>
@@ -234,7 +234,7 @@ In this example, the algorithm encompasses the entire process of the Rock Paper 
 and generating computer input to determining the winner and displaying the result. Algorithms are fundamental to
 problem-solving in programming, providing a structured approach to solving specific tasks efficiently.
 
-## 5. Truthy and Falsy Values:
+## 5. Truthy and Falsy Values
 
 In JavaScript, truthy and falsy values are related to the concept of boolean evaluation. Every value in JavaScript has
 an inherent boolean value, either true or false, when used in a boolean context (like in an `if` statement or as a
