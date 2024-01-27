@@ -1,6 +1,6 @@
 # JavaScript Objects
 
-## Creating Objects
+## 1. Creating Objects
 
 JavaScript objects are a fundamental data structure that allows developers to store and organize data efficiently using
 key-value pairs. Objects in JavaScript provide a flexible and powerful way to represent and manipulate complex data.
@@ -20,7 +20,7 @@ let person = {
 };
 ```
 
-## Accessing Object Properties
+## 2. Accessing Object Properties
 
 Once an object is created, you can access its properties using dot notation or square brackets. Here's how you can
 access properties:
@@ -31,7 +31,7 @@ console.log(person.name); // Output: Ranit
 console.log(person["age"]);  // Output: 20
 ```
 
-## Modifying and Adding Properties
+## 3. Modifying and Adding Properties
 
 Object properties can be modified and new properties can be added dynamically. Here's an example:
 
@@ -43,7 +43,7 @@ person.age = 21;
 person.language = "Bengali";
 ```
 
-## Deleting Properties
+## 4. Deleting Properties
 
 If you need to remove a property from an object, you can use the `delete` keyword. Here's how it's done:
 
@@ -52,7 +52,7 @@ If you need to remove a property from an object, you can use the `delete` keywor
 delete person.location;
 ```
 
-## Checking Property Existence
+## 5. Checking Property Existence
 
 To check if a property exists in an object, you can use the `in` operator. Here's an example:
 
@@ -65,7 +65,7 @@ if ("profession" in person) {
 }
 ```
 
-## JSON (JavaScript Object Notation)
+## 6. JSON (JavaScript Object Notation)
 
 JSON, standing for JavaScript Object Notation, is a lightweight data interchange format. It is easy for humans to read
 and write and easy for machines to parse and generate. JSON is a common data format with diverse uses in electronic data
@@ -87,12 +87,12 @@ JSON data is represented as key-value pairs, similar to JavaScript object litera
 - **Key**: A string representing the name of the property.
 - **Value**: Can be a string, number, object, array, boolean, or `null`.
 
-### Usage in JavaScript
+### 7. Usage in JavaScript
 
 JavaScript provides methods to parse JSON strings into JavaScript objects and stringify JavaScript objects into JSON
 strings.
 
-#### Parsing JSON
+#### 8. Parsing JSON
 
 ```javascript
 const jsonString = '{"name": "John Doe", "age": 30, "city": "New York"}';
@@ -103,7 +103,7 @@ const parsedObject = JSON.parse(jsonString);
 console.log(parsedObject.name); // Output: John Doe
 ```
 
-#### Stringifying JavaScript Objects
+#### 9. Stringifying JavaScript Objects
 
 ```javascript
 const myObject = {
@@ -119,12 +119,12 @@ console.log(jsonStringified);
 // Output: {"name":"Jane Doe","age":25,"city":"San Francisco"}
 ```
 
-## localStorage
+## 10. localStorage
 
 localStorage is a type of web storage that allows you to store key-value pairs in a web browser with no expiration time.
 The data stored in localStorage persists even after the browser is closed and reopened.
 
-### Basic Usage
+### 11. Basic Usage
 
 ```javascript
 // Storing data in localStorage
@@ -136,13 +136,13 @@ const storedUsername = localStorage.getItem("username");
 console.log(storedUsername); // Output: john_doe
 ```
 
-### Limitations
+### 12. Limitations
 
 - **Storage Size**: localStorage has a size limit (usually 5 MB per domain).
 - **Data Type**: Values stored in localStorage are always strings. If you need to store other data types, you should
   convert them to strings before storing and parse them when retrieving.
 
-### Example: Storing and Retrieving an Object
+### 13. Example: Storing and Retrieving an Object
 
 ```javascript
 const userObject = {
@@ -164,7 +164,7 @@ In this example, we use JSON.stringify to convert the object to a JSON string be
 we use JSON.parse to convert the JSON string back to a JavaScript object when retrieving it. This allows us to store and
 retrieve more complex data structures in localStorage.
 
-## More Details
+## 14. More Details
 
 ### Null:
 
@@ -221,7 +221,7 @@ because they share the same reference.
 Understanding these concepts is crucial for effective JavaScript programming, especially when dealing with variables,
 data types, and object manipulation.
 
-## Shortcuts
+## 15. Shortcuts
 
 ### Destructuring
 
@@ -275,3 +275,58 @@ console.log(calculator.subtract(8, 3)); // Output: 5
 
 These shortcuts make the code more concise and readable. Destructuring simplifies the extraction of values, while
 shorthand syntax enhances the definition of object properties and methods.
+
+## 16. Exercises
+
+**Exercise 8a:**
+Let's say in the Amazon project, we have a basketball product. This
+product has a name of 'basketball', a price of 2095 cents. Create an
+object to represent this product and display it in the console.
+
+**Exercise 8b:**
+Continuing from 8a, let's say we want to increase the price by 500
+cents. Use dot notation to increase the price, and display the
+updated object in the console.
+
+**Exercise 8c:**
+Using bracket notation, add a property 'delivery-time' to the object
+with the value '3 days'. Display the updated object in the console.
+
+**Exercise 8d:**
+Create a function 'comparePrice(product1, product2)', which takes 2
+products (with 'name' and 'price' properties) and returns the product
+that is less expensive. Create 2 products and try out the function.
+
+**Exercise 8e:**
+Create a function 'isSameProduct(productl, product2)', which returns
+true if 2 products have the same values inside ('name' and 'price').
+If not, return false. Create 2 products and try out the function.
+(Hint: objects are references so you can't compare them directly).
+
+**Exercise 8f:**
+Using Google or an A.I. tool, search how to convert a string to all
+lowercase with JavaScript ('Good Morning' => 'good morning')
+
+**Exercise 8g:**
+Search how to repeat a string many times ('test' 2 times => 'testtest')
+
+**Exercise 8h:**
+We'll add localStorage to the calculator project. First, make a copy of
+the project from exercise 7g (see the solution for 7g if needed).
+
+- Whenever we update the calculation, save it using `.setltem()`
+- When the page is loaded, get the calculation using `.getltem()`
+- Use a default value of `"` if a calculation doesn't exist in local storage
+
+**Exercise 8i:**
+We'll improve the coin flip game from exercise 6j to be like the rock
+paper scissors game.
+
+- Copy the code from exercise 6j (see the solution for 6j if needed).
+
+- Create 2 buttons to play the game - `heads` and `tails`
+- When clicking 'heads' play the game with guess = 'heads'
+- When clicking 'tails' play the game with guess = 'tails'
+- Create a function 'playGame(guess)' to reuse the code
+
+

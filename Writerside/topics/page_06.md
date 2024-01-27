@@ -376,7 +376,6 @@ expressions.
 ## 7. Exercises
 
 **Exercise 6a:**
-
 Create a variable called 'hour' and save the current hour of the day (use 24-hour format and save it as a number between
 0 and 23).
 
@@ -386,18 +385,15 @@ Create a variable called 'hour' and save the current hour of the day (use 24-hou
 * Otherwise, display 'Good night!' in the console.
 
 **Exercise 6b:**
-
 Continuing from 6a, try changing the value in the 'hour' variable to make it display different messages.
 
 **Exercise 6c:**
-
 Continuing from 6a, create a variable called 'name' and save your name inside (as a string). Update the if-statement to
 display your name in each message.
 
 * For example: `Good morning ${name}!`
 
 **Exercise 6d:**
-
 Imagine an amusement park that has a discount for children (6 years and younger) or seniors (65 years and older).
 
 * Create a variable 'age' and save a person's age inside. Create an if-statement that checks if the person qualifies for
@@ -409,43 +405,35 @@ Imagine an amusement park that has a discount for children (6 years and younger)
 * Try changing the 'age' variable to display different messages.
 
 **Exercise 6e:**
-
 Continuing from exercise 6d, let's say the discount is only available if it is not a holiday. Create a
 variable: `const isHoliday = true;`. Update the code so that in order to get a discount, people must meet the age
 requirement, and it is also not a holiday. Note: && has a higher priority than || so you may need to use brackets () to
 control which code gets done first. Try changing the value of isHoliday to display different messages.
 
 **Exercise 6f:**
-
 Generate a random number with `Math.random()`. Save it in a variable.
 
 **Exercise 6g:**
-
 Create an if-statement and check: If the number is less than 0.5, then display 'heads' in the console. Else display '
 tails' in the console.
 
 **Exercise 6h:**
-
 Instead of displaying 'heads' or 'tails' in the console, save the result in a variable called 'result'.
 
 **Exercise 6i:**
-
 Let's say we're trying to guess the result. Create a variable called 'guess' and save your guess ('heads' or 'tails').
 If your guess matches the result, display 'You win!' in the console. If your guess does not match the result, display '
 You lose!'
 
 **Exercise 6j:**
-
 Instead of using if-statements in the previous exercises, try switching them into ternary operators (condition ? A : B).
 
 **Exercise 6k:**
-
 Let's say the cart has a maximum quantity of 10. Before updating the quantity, check if the quantity will be greater
 than 10: If it will, display a popup saying 'The cart is full' and don't update the quantity. Otherwise, update the
 quantity and console.log() it as usual.
 
 **Exercise 6l:**
-
 In exercises 5i - 5k, we created the 'Remove from cart', '-2', and '-3' buttons. Before updating the quantity, check if
 it will go below 0: If it will, create a popup saying 'Not enough items in the cart' and don't update the quantity.
 Otherwise, update the quantity and console.log() it as usual.
