@@ -293,12 +293,12 @@ Using bracket notation, add a property 'delivery-time' to the object
 with the value '3 days'. Display the updated object in the console.
 
 **Exercise 8d:**
-Create a function 'comparePrice(product1, product2)', which takes 2
+Create a function `comparePrice(product1, product2)`, which takes 2
 products (with 'name' and 'price' properties) and returns the product
 that is less expensive. Create 2 products and try out the function.
 
 **Exercise 8e:**
-Create a function 'isSameProduct(productl, product2)', which returns
+Create a function `isSameProduct(productl, product2)`, which returns
 true if 2 products have the same values inside ('name' and 'price').
 If not, return false. Create 2 products and try out the function.
 (Hint: objects are references so you can't compare them directly).
@@ -316,7 +316,7 @@ the project from exercise 7g (see the solution for 7g if needed).
 
 - Whenever we update the calculation, save it using `.setltem()`
 - When the page is loaded, get the calculation using `.getltem()`
-- Use a default value of `"` if a calculation doesn't exist in local storage
+- Use a default value of `''` if a calculation doesn't exist in local storage
 
 **Exercise 8i:**
 We'll improve the coin flip game from exercise 6j to be like the rock
@@ -329,4 +329,10 @@ paper scissors game.
 - When clicking 'tails' play the game with guess = 'tails'
 - Create a function 'playGame(guess)' to reuse the code
 
+**Exercise 8j:**
+Create a score object { wins: 0, losses: 0 }, update the score each time
+after playing, and display the score in the console.
 
+**Exercise 8k:**
+Use localStorage to save and load the score (hint: you'll need to use
+`JSON.stringify()` to convert the score object to a string).
