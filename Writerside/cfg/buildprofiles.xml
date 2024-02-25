@@ -9,7 +9,7 @@
     </build-profile>
 
     <variables>
-        <algolia-id>Y5IE4K6ZIO</algolia-id>
+        <algolia-id>SNWVWAU8YB</algolia-id>
         <algolia-index>JS</algolia-index>
         <algolia-api-key>4152b3dff29a066cf742337b2e8e6e35</algolia-api-key>
         <web-root>https://ranitmanik.github.io/JavaScript-Docs/</web-root>
