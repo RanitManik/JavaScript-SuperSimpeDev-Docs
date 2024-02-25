@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: 'Writerside/JS'
-  ARTIFACT: 'webHelpJS-all.zip'
+  ARTIFACT: 'webHelpJS2-all.zip'
   DOCKER_VERSION: '233.14389'
   ALGOLIA_ARTIFACT: 'algolia-indexes-JS.zip'
   ALGOLIA_APP_NAME: 'Y5IE4K6ZIO'
