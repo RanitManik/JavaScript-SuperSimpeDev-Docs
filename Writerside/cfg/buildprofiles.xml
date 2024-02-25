@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <build-profile instance="JS">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+
+    <variables>
+        <algolia-id>Y5IE4K6ZIO</algolia-id>
+        <algolia-index>JS-V1</algolia-index>
+        <algolia-api-key>706155c1fd3e70c4de01ac9d150685fb</algolia-api-key>
+        <web-root>https://ranitmanik.github.io/JavaScript-Docs/</web-root>
+        <noindex-content>false</noindex-content>
+    </variables>
+
+    <footer>
+        <copyright>Ranit Manik</copyright>
+        <icp>MIT License</icp>
+        <social type="email" href="ranitmanik.dev@gmail.com"/>
+        <social type="linkedin" href="https://www.linkedin.com/in/ranit-manik/"/>
+        <social type="twitter" href="https://twitter.com/RANIT_MANIK"/>
+        <social type="facebook" href="https://www.facebook.com/RanitKumarManik/"/>
+        <link href="https://github.com/RanitManik/JavaScript-Docs">GitHub</link>
+        <link href="https://github.com/RanitManik/JavaScript-Docs/blob/master/LICENSE">License</link>
+    </footer>
+</buildprofiles>
