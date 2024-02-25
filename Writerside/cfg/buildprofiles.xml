@@ -10,8 +10,8 @@
 
     <variables>
         <algolia-id>Y5IE4K6ZIO</algolia-id>
-        <algolia-index>JS-V1</algolia-index>
-        <algolia-api-key>706155c1fd3e70c4de01ac9d150685fb</algolia-api-key>
+        <algolia-index>JS</algolia-index>
+        <algolia-api-key>4152b3dff29a066cf742337b2e8e6e35</algolia-api-key>
         <web-root>https://ranitmanik.github.io/JavaScript-Docs/</web-root>
         <noindex-content>false</noindex-content>
     </variables>
