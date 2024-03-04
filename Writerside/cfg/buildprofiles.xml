@@ -5,6 +5,9 @@
     <build-profile instance="JS">
         <variables>
             <noindex-content>true</noindex-content>
+            <custom-favicons>
+                https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png
+            </custom-favicons>
         </variables>
     </build-profile>
 
